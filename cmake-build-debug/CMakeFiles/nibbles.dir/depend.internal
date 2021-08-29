@@ -78,7 +78,7 @@ CMakeFiles/nibbles.dir/src/Engine.cpp.obj
  C:/SFML/include/SFML/Window/Window.hpp
  C:/SFML/include/SFML/Window/WindowHandle.hpp
  C:/SFML/include/SFML/Window/WindowStyle.hpp
- C:/Users/bianc/CLionProjects/nibbles/src/Engine.cpp
+ C:/Users/bianc/CLionProjects/Nibbles/src/Engine.cpp
 CMakeFiles/nibbles.dir/src/SnakeSection.cpp.obj
  ../headers/SnakeSection.h
  C:/SFML/include/SFML/Config.hpp
@@ -155,7 +155,7 @@ CMakeFiles/nibbles.dir/src/SnakeSection.cpp.obj
  C:/SFML/include/SFML/Window/Window.hpp
  C:/SFML/include/SFML/Window/WindowHandle.hpp
  C:/SFML/include/SFML/Window/WindowStyle.hpp
- C:/Users/bianc/CLionProjects/nibbles/src/SnakeSection.cpp
+ C:/Users/bianc/CLionProjects/Nibbles/src/SnakeSection.cpp
 CMakeFiles/nibbles.dir/src/draw.cpp.obj
  ../headers/Engine.h
  ../headers/SnakeSection.h
@@ -233,7 +233,7 @@ CMakeFiles/nibbles.dir/src/draw.cpp.obj
  C:/SFML/include/SFML/Window/Window.hpp
  C:/SFML/include/SFML/Window/WindowHandle.hpp
  C:/SFML/include/SFML/Window/WindowStyle.hpp
- C:/Users/bianc/CLionProjects/nibbles/src/draw.cpp
+ C:/Users/bianc/CLionProjects/Nibbles/src/draw.cpp
 CMakeFiles/nibbles.dir/src/input.cpp.obj
  ../headers/Engine.h
  ../headers/SnakeSection.h
@@ -311,7 +311,7 @@ CMakeFiles/nibbles.dir/src/input.cpp.obj
  C:/SFML/include/SFML/Window/Window.hpp
  C:/SFML/include/SFML/Window/WindowHandle.hpp
  C:/SFML/include/SFML/Window/WindowStyle.hpp
- C:/Users/bianc/CLionProjects/nibbles/src/input.cpp
+ C:/Users/bianc/CLionProjects/Nibbles/src/input.cpp
 CMakeFiles/nibbles.dir/src/main.cpp.obj
  ../headers/Engine.h
  ../headers/SnakeSection.h
@@ -389,4 +389,4 @@ CMakeFiles/nibbles.dir/src/main.cpp.obj
  C:/SFML/include/SFML/Window/Window.hpp
  C:/SFML/include/SFML/Window/WindowHandle.hpp
  C:/SFML/include/SFML/Window/WindowStyle.hpp
- C:/Users/bianc/CLionProjects/nibbles/src/main.cpp
+ C:/Users/bianc/CLionProjects/Nibbles/src/main.cpp

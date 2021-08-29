@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\bianc\CLionProjects\nibbles
+CMAKE_SOURCE_DIR = C:\Users\bianc\CLionProjects\Nibbles
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\bianc\CLionProjects\nibbles\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\bianc\CLionProjects\Nibbles\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/nibbles.dir/depend.make
@@ -68,72 +68,72 @@ include CMakeFiles/nibbles.dir/flags.make
 CMakeFiles/nibbles.dir/src/main.cpp.obj: CMakeFiles/nibbles.dir/flags.make
 CMakeFiles/nibbles.dir/src/main.cpp.obj: CMakeFiles/nibbles.dir/includes_CXX.rsp
 CMakeFiles/nibbles.dir/src/main.cpp.obj: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bianc\CLionProjects\nibbles\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/nibbles.dir/src/main.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\nibbles.dir\src\main.cpp.obj -c C:\Users\bianc\CLionProjects\nibbles\src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bianc\CLionProjects\Nibbles\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/nibbles.dir/src/main.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\nibbles.dir\src\main.cpp.obj -c C:\Users\bianc\CLionProjects\Nibbles\src\main.cpp
 
 CMakeFiles/nibbles.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nibbles.dir/src/main.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\bianc\CLionProjects\nibbles\src\main.cpp > CMakeFiles\nibbles.dir\src\main.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\bianc\CLionProjects\Nibbles\src\main.cpp > CMakeFiles\nibbles.dir\src\main.cpp.i
 
 CMakeFiles/nibbles.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nibbles.dir/src/main.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\bianc\CLionProjects\nibbles\src\main.cpp -o CMakeFiles\nibbles.dir\src\main.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\bianc\CLionProjects\Nibbles\src\main.cpp -o CMakeFiles\nibbles.dir\src\main.cpp.s
 
 CMakeFiles/nibbles.dir/src/Engine.cpp.obj: CMakeFiles/nibbles.dir/flags.make
 CMakeFiles/nibbles.dir/src/Engine.cpp.obj: CMakeFiles/nibbles.dir/includes_CXX.rsp
 CMakeFiles/nibbles.dir/src/Engine.cpp.obj: ../src/Engine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bianc\CLionProjects\nibbles\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/nibbles.dir/src/Engine.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\nibbles.dir\src\Engine.cpp.obj -c C:\Users\bianc\CLionProjects\nibbles\src\Engine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bianc\CLionProjects\Nibbles\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/nibbles.dir/src/Engine.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\nibbles.dir\src\Engine.cpp.obj -c C:\Users\bianc\CLionProjects\Nibbles\src\Engine.cpp
 
 CMakeFiles/nibbles.dir/src/Engine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nibbles.dir/src/Engine.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\bianc\CLionProjects\nibbles\src\Engine.cpp > CMakeFiles\nibbles.dir\src\Engine.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\bianc\CLionProjects\Nibbles\src\Engine.cpp > CMakeFiles\nibbles.dir\src\Engine.cpp.i
 
 CMakeFiles/nibbles.dir/src/Engine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nibbles.dir/src/Engine.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\bianc\CLionProjects\nibbles\src\Engine.cpp -o CMakeFiles\nibbles.dir\src\Engine.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\bianc\CLionProjects\Nibbles\src\Engine.cpp -o CMakeFiles\nibbles.dir\src\Engine.cpp.s
 
 CMakeFiles/nibbles.dir/src/draw.cpp.obj: CMakeFiles/nibbles.dir/flags.make
 CMakeFiles/nibbles.dir/src/draw.cpp.obj: CMakeFiles/nibbles.dir/includes_CXX.rsp
 CMakeFiles/nibbles.dir/src/draw.cpp.obj: ../src/draw.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bianc\CLionProjects\nibbles\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/nibbles.dir/src/draw.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\nibbles.dir\src\draw.cpp.obj -c C:\Users\bianc\CLionProjects\nibbles\src\draw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bianc\CLionProjects\Nibbles\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/nibbles.dir/src/draw.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\nibbles.dir\src\draw.cpp.obj -c C:\Users\bianc\CLionProjects\Nibbles\src\draw.cpp
 
 CMakeFiles/nibbles.dir/src/draw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nibbles.dir/src/draw.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\bianc\CLionProjects\nibbles\src\draw.cpp > CMakeFiles\nibbles.dir\src\draw.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\bianc\CLionProjects\Nibbles\src\draw.cpp > CMakeFiles\nibbles.dir\src\draw.cpp.i
 
 CMakeFiles/nibbles.dir/src/draw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nibbles.dir/src/draw.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\bianc\CLionProjects\nibbles\src\draw.cpp -o CMakeFiles\nibbles.dir\src\draw.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\bianc\CLionProjects\Nibbles\src\draw.cpp -o CMakeFiles\nibbles.dir\src\draw.cpp.s
 
 CMakeFiles/nibbles.dir/src/input.cpp.obj: CMakeFiles/nibbles.dir/flags.make
 CMakeFiles/nibbles.dir/src/input.cpp.obj: CMakeFiles/nibbles.dir/includes_CXX.rsp
 CMakeFiles/nibbles.dir/src/input.cpp.obj: ../src/input.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bianc\CLionProjects\nibbles\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/nibbles.dir/src/input.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\nibbles.dir\src\input.cpp.obj -c C:\Users\bianc\CLionProjects\nibbles\src\input.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bianc\CLionProjects\Nibbles\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/nibbles.dir/src/input.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\nibbles.dir\src\input.cpp.obj -c C:\Users\bianc\CLionProjects\Nibbles\src\input.cpp
 
 CMakeFiles/nibbles.dir/src/input.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nibbles.dir/src/input.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\bianc\CLionProjects\nibbles\src\input.cpp > CMakeFiles\nibbles.dir\src\input.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\bianc\CLionProjects\Nibbles\src\input.cpp > CMakeFiles\nibbles.dir\src\input.cpp.i
 
 CMakeFiles/nibbles.dir/src/input.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nibbles.dir/src/input.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\bianc\CLionProjects\nibbles\src\input.cpp -o CMakeFiles\nibbles.dir\src\input.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\bianc\CLionProjects\Nibbles\src\input.cpp -o CMakeFiles\nibbles.dir\src\input.cpp.s
 
 CMakeFiles/nibbles.dir/src/SnakeSection.cpp.obj: CMakeFiles/nibbles.dir/flags.make
 CMakeFiles/nibbles.dir/src/SnakeSection.cpp.obj: CMakeFiles/nibbles.dir/includes_CXX.rsp
 CMakeFiles/nibbles.dir/src/SnakeSection.cpp.obj: ../src/SnakeSection.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bianc\CLionProjects\nibbles\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/nibbles.dir/src/SnakeSection.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\nibbles.dir\src\SnakeSection.cpp.obj -c C:\Users\bianc\CLionProjects\nibbles\src\SnakeSection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bianc\CLionProjects\Nibbles\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/nibbles.dir/src/SnakeSection.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\nibbles.dir\src\SnakeSection.cpp.obj -c C:\Users\bianc\CLionProjects\Nibbles\src\SnakeSection.cpp
 
 CMakeFiles/nibbles.dir/src/SnakeSection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nibbles.dir/src/SnakeSection.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\bianc\CLionProjects\nibbles\src\SnakeSection.cpp > CMakeFiles\nibbles.dir\src\SnakeSection.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\bianc\CLionProjects\Nibbles\src\SnakeSection.cpp > CMakeFiles\nibbles.dir\src\SnakeSection.cpp.i
 
 CMakeFiles/nibbles.dir/src/SnakeSection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nibbles.dir/src/SnakeSection.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\bianc\CLionProjects\nibbles\src\SnakeSection.cpp -o CMakeFiles\nibbles.dir\src\SnakeSection.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\bianc\CLionProjects\Nibbles\src\SnakeSection.cpp -o CMakeFiles\nibbles.dir\src\SnakeSection.cpp.s
 
 # Object files for target nibbles
 nibbles_OBJECTS = \
@@ -158,7 +158,7 @@ nibbles.exe: /SFML/lib/libsfml-graphics-d.a
 nibbles.exe: CMakeFiles/nibbles.dir/linklibs.rsp
 nibbles.exe: CMakeFiles/nibbles.dir/objects1.rsp
 nibbles.exe: CMakeFiles/nibbles.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\bianc\CLionProjects\nibbles\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable nibbles.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\bianc\CLionProjects\Nibbles\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable nibbles.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\nibbles.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -170,6 +170,6 @@ CMakeFiles/nibbles.dir/clean:
 .PHONY : CMakeFiles/nibbles.dir/clean
 
 CMakeFiles/nibbles.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\bianc\CLionProjects\nibbles C:\Users\bianc\CLionProjects\nibbles C:\Users\bianc\CLionProjects\nibbles\cmake-build-debug C:\Users\bianc\CLionProjects\nibbles\cmake-build-debug C:\Users\bianc\CLionProjects\nibbles\cmake-build-debug\CMakeFiles\nibbles.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\bianc\CLionProjects\Nibbles C:\Users\bianc\CLionProjects\Nibbles C:\Users\bianc\CLionProjects\Nibbles\cmake-build-debug C:\Users\bianc\CLionProjects\Nibbles\cmake-build-debug C:\Users\bianc\CLionProjects\Nibbles\cmake-build-debug\CMakeFiles\nibbles.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/nibbles.dir/depend
 
