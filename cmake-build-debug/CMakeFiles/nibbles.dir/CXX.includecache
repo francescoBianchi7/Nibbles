@@ -15,6 +15,8 @@ SFML/Graphics/RectangleShape.hpp
 -
 vector
 -
+deque
+-
 
 ../headers/SnakeSection.h
 SFML/Graphics.hpp
@@ -690,23 +692,7 @@ SFML/Config.hpp
 
 C:/SFML/include/SFML/Window/WindowStyle.hpp
 
-C:/Users/bianc/CLionProjects/Nibbles/src/Engine.cpp
-Engine.h
-C:/Users/bianc/CLionProjects/Nibbles/src/Engine.h
-
-C:/Users/bianc/CLionProjects/Nibbles/src/SnakeSection.cpp
-SnakeSection.h
-C:/Users/bianc/CLionProjects/Nibbles/src/SnakeSection.h
-
-C:/Users/bianc/CLionProjects/Nibbles/src/draw.cpp
-Engine.h
-C:/Users/bianc/CLionProjects/Nibbles/src/Engine.h
-
-C:/Users/bianc/CLionProjects/Nibbles/src/input.cpp
-Engine.h
-C:/Users/bianc/CLionProjects/Nibbles/src/Engine.h
-
-C:/Users/bianc/CLionProjects/Nibbles/src/main.cpp
+C:/Users/bianc/CLionProjects/Nibbles/src/update.cpp
 Engine.h
 C:/Users/bianc/CLionProjects/Nibbles/src/Engine.h
 

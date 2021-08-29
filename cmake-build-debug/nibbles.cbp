@@ -107,6 +107,9 @@
 		<Unit filename="C:/Users/bianc/CLionProjects/Nibbles/src/main.cpp">
 			<Option target="nibbles"/>
 		</Unit>
+		<Unit filename="C:/Users/bianc/CLionProjects/Nibbles/src/update.cpp">
+			<Option target="nibbles"/>
+		</Unit>
 		<Unit filename="C:/Users/bianc/CLionProjects/Nibbles/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

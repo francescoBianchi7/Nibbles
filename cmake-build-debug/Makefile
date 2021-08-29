@@ -248,6 +248,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/update.obj: src/update.cpp.obj
+.PHONY : src/update.obj
+
+# target to build an object file
+src/update.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/update.cpp.obj
+.PHONY : src/update.cpp.obj
+
+src/update.i: src/update.cpp.i
+.PHONY : src/update.i
+
+# target to preprocess a source file
+src/update.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/update.cpp.i
+.PHONY : src/update.cpp.i
+
+src/update.s: src/update.cpp.s
+.PHONY : src/update.s
+
+# target to generate assembly for a file
+src/update.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/update.cpp.s
+.PHONY : src/update.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -272,6 +296,9 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/update.obj
+	@echo ... src/update.i
+	@echo ... src/update.s
 .PHONY : help
 
 

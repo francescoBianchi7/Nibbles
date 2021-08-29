@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/nibbles.dir/src/draw.cpp.obj"
   "CMakeFiles/nibbles.dir/src/input.cpp.obj"
   "CMakeFiles/nibbles.dir/src/main.cpp.obj"
+  "CMakeFiles/nibbles.dir/src/update.cpp.obj"
   "libnibbles.dll.a"
   "nibbles.exe"
   "nibbles.exe.manifest"

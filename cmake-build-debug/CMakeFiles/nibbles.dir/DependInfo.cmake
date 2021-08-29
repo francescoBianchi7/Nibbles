@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/bianc/CLionProjects/Nibbles/src/draw.cpp" "C:/Users/bianc/CLionProjects/Nibbles/cmake-build-debug/CMakeFiles/nibbles.dir/src/draw.cpp.obj"
   "C:/Users/bianc/CLionProjects/Nibbles/src/input.cpp" "C:/Users/bianc/CLionProjects/Nibbles/cmake-build-debug/CMakeFiles/nibbles.dir/src/input.cpp.obj"
   "C:/Users/bianc/CLionProjects/Nibbles/src/main.cpp" "C:/Users/bianc/CLionProjects/Nibbles/cmake-build-debug/CMakeFiles/nibbles.dir/src/main.cpp.obj"
+  "C:/Users/bianc/CLionProjects/Nibbles/src/update.cpp" "C:/Users/bianc/CLionProjects/Nibbles/cmake-build-debug/CMakeFiles/nibbles.dir/src/update.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
