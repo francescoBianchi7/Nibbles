@@ -2,7 +2,7 @@
 // Created by bianc on 29/08/2021.
 //
 
-#include "Engine.h"
+#include "Engine.hpp"
 
 void Engine::update() {
     // Update snake positions
@@ -38,6 +38,11 @@ void Engine::update() {
             directionQueue.pop_front();
         }
 
+        //Growing snake
+        if(sectionsToAdd){
+            addSnakeSection();
+            sectionsToAdd--;
+        }
 
 
         // Update the snake's head position
@@ -65,6 +70,15 @@ void Engine::update() {
         //update sections
         for (auto & s : snake) {
             s.update();
+        }
+        //collision with apple
+        if(snake[0].getShape().getGlobalBounds().intersects(apple.getSprite().getGlobalBounds())){
+            //we hit apple , increase sections,speed and move apple
+            //TODO implement score
+            sectionsToAdd+=4;
+            speed++;
+            moveApple();
+
         }
         //reset timer
         timeSinceLastMove = Time::Zero;

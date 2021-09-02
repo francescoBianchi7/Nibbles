@@ -1,5 +1,5 @@
 
-#include "SnakeSection.h"
+#include "SnakeSection.hpp"
 
 SnakeSection::SnakeSection(Vector2f startPosition) {
     section.setSize(Vector2f(20,20));

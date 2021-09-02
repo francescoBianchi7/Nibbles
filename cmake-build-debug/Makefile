@@ -128,6 +128,30 @@ nibbles/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/build
 .PHONY : nibbles/fast
 
+src/Apple.obj: src/Apple.cpp.obj
+.PHONY : src/Apple.obj
+
+# target to build an object file
+src/Apple.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/Apple.cpp.obj
+.PHONY : src/Apple.cpp.obj
+
+src/Apple.i: src/Apple.cpp.i
+.PHONY : src/Apple.i
+
+# target to preprocess a source file
+src/Apple.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/Apple.cpp.i
+.PHONY : src/Apple.cpp.i
+
+src/Apple.s: src/Apple.cpp.s
+.PHONY : src/Apple.s
+
+# target to generate assembly for a file
+src/Apple.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/Apple.cpp.s
+.PHONY : src/Apple.cpp.s
+
 src/Engine.obj: src/Engine.cpp.obj
 .PHONY : src/Engine.obj
 
@@ -281,6 +305,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... nibbles
+	@echo ... src/Apple.obj
+	@echo ... src/Apple.i
+	@echo ... src/Apple.s
 	@echo ... src/Engine.obj
 	@echo ... src/Engine.i
 	@echo ... src/Engine.s

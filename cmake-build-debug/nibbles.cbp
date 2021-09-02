@@ -86,10 +86,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/bianc/CLionProjects/Nibbles/headers/Engine.h">
+		<Unit filename="C:/Users/bianc/CLionProjects/Nibbles/headers/Apple.h">
 			<Option target="nibbles"/>
 		</Unit>
-		<Unit filename="C:/Users/bianc/CLionProjects/Nibbles/headers/SnakeSection.h">
+		<Unit filename="C:/Users/bianc/CLionProjects/Nibbles/headers/Engine.hpp">
+			<Option target="nibbles"/>
+		</Unit>
+		<Unit filename="C:/Users/bianc/CLionProjects/Nibbles/headers/SnakeSection.hpp">
+			<Option target="nibbles"/>
+		</Unit>
+		<Unit filename="C:/Users/bianc/CLionProjects/Nibbles/src/Apple.cpp">
 			<Option target="nibbles"/>
 		</Unit>
 		<Unit filename="C:/Users/bianc/CLionProjects/Nibbles/src/Engine.cpp">

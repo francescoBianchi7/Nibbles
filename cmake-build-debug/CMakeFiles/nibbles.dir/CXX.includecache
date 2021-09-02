@@ -6,9 +6,15 @@
 
 #IncludeRegexTransform: 
 
-../headers/Engine.h
-SnakeSection.h
-../headers/SnakeSection.h
+../headers/Apple.h
+SFML/Graphics.hpp
+-
+
+../headers/Engine.hpp
+SnakeSection.hpp
+../headers/SnakeSection.hpp
+Apple.h
+../headers/Apple.h
 SFML/Graphics.hpp
 -
 SFML/Graphics/RectangleShape.hpp
@@ -18,7 +24,7 @@ vector
 deque
 -
 
-../headers/SnakeSection.h
+../headers/SnakeSection.hpp
 SFML/Graphics.hpp
 -
 
@@ -692,7 +698,23 @@ SFML/Config.hpp
 
 C:/SFML/include/SFML/Window/WindowStyle.hpp
 
+C:/Users/bianc/CLionProjects/Nibbles/src/Engine.cpp
+Engine.hpp
+C:/Users/bianc/CLionProjects/Nibbles/src/Engine.hpp
+
+C:/Users/bianc/CLionProjects/Nibbles/src/draw.cpp
+Engine.hpp
+C:/Users/bianc/CLionProjects/Nibbles/src/Engine.hpp
+
+C:/Users/bianc/CLionProjects/Nibbles/src/input.cpp
+Engine.hpp
+C:/Users/bianc/CLionProjects/Nibbles/src/Engine.hpp
+
+C:/Users/bianc/CLionProjects/Nibbles/src/main.cpp
+Engine.hpp
+C:/Users/bianc/CLionProjects/Nibbles/src/Engine.hpp
+
 C:/Users/bianc/CLionProjects/Nibbles/src/update.cpp
-Engine.h
-C:/Users/bianc/CLionProjects/Nibbles/src/Engine.h
+Engine.hpp
+C:/Users/bianc/CLionProjects/Nibbles/src/Engine.hpp
 

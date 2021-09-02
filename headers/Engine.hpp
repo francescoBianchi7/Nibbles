@@ -1,11 +1,13 @@
-#ifndef NIBBLES_ENGINE_H
-#define NIBBLES_ENGINE_H
+#ifndef NIBBLES_ENGINE_HPP
+#define NIBBLES_ENGINE_HPP
 
-#include "SnakeSection.h"
+#include "SnakeSection.hpp"
+#include "Apple.h"
 #include <SFML/Graphics.hpp> //tell the linker to look in the include directories
 #include <SFML/Graphics/RectangleShape.hpp>
 #include <vector>
 #include <deque>
+
 using namespace sf;
 using namespace std;
 
@@ -23,6 +25,9 @@ private:
     int snakeDirection;
     deque<int> directionQueue; // queue for direction key presses
     int speed;
+    int sectionsToAdd;
+
+    Apple apple;
 
     Time timeSinceLastMove;
 
@@ -38,9 +43,11 @@ public:
     void newSnake();
     void addSnakeSection();
 
+    void moveApple();
+
     void run();
 
 };
 
 
-#endif //NIBBLES_ENGINE_H
+#endif //NIBBLES_ENGINE_HPP

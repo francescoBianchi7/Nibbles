@@ -3,7 +3,7 @@ project(nibbles)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(nibbles src/main.cpp src/Engine.cpp headers/Engine.h src/draw.cpp src/input.cpp src/SnakeSection.cpp headers/SnakeSection.h src/update.cpp)
+add_executable(nibbles src/main.cpp src/Engine.cpp headers/Engine.hpp src/draw.cpp src/input.cpp src/SnakeSection.cpp headers/SnakeSection.hpp src/update.cpp src/Apple.cpp headers/Apple.h)
 
 include_directories(headers c:/SFML/include)
 
