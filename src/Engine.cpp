@@ -63,6 +63,16 @@ void Engine::moveApple() {
     apple.setPosition(newAppleLocation);
 }
 
+void Engine::togglePause() {
+    if(currentGameState==GameState::RUNNING){
+        lastGameState=currentGameState;
+        currentGameState=GameState::PAUSED;
+    }
+    else if(currentGameState==GameState::PAUSED){
+        currentGameState = lastGameState;
+    }
+
+}
 
 void Engine::run() {
     Clock clock;
@@ -70,6 +80,18 @@ void Engine::run() {
     // Main loop - Runs until the window is closed
     while (window.isOpen()) {
         Time dt = clock.restart();
+        if(currentGameState==GameState::PAUSED || currentGameState==GameState::GAMEOVER){
+            //if we are paused check for input
+            input();
+            //Draw gameover screen
+            if(currentGameState==GameState::GAMEOVER){
+                draw();
+            }
+
+            sleep(milliseconds(2));//delay to not max Cpu
+            continue;
+        }
+
         timeSinceLastMove += dt;
 
         input();

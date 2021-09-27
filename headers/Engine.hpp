@@ -30,10 +30,12 @@ private:
     Apple apple;
 
     Time timeSinceLastMove;
-
+    int currentGameState;
+    int lastGameState;
 
 public:
     enum Direction { UP, RIGHT, DOWN, LEFT };
+    enum GameState{RUNNING,PAUSED,GAMEOVER};
     Engine();
     void input();
     void addDirection(int newDirection);
@@ -44,6 +46,8 @@ public:
     void addSnakeSection();
 
     void moveApple();
+
+    void togglePause();
 
     void run();
 

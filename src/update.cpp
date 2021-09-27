@@ -80,6 +80,13 @@ void Engine::update() {
             moveApple();
 
         }
+        //cillision with snake body
+        for(int s=1;s<snake.size();s++)
+        {
+            if(snake[0].getShape().getGlobalBounds().intersects(snake[s].getShape().getGlobalBounds()))
+                // GameOVER
+                currentGameState=GameState::GAMEOVER;
+        }
         //reset timer
         timeSinceLastMove = Time::Zero;
     }//END update

@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/bianc/CLionProjects/Nibbles/src/Apple.cpp" "C:/Users/bianc/CLionProjects/Nibbles/cmake-build-debug/CMakeFiles/nibbles.dir/src/Apple.cpp.obj"
   "C:/Users/bianc/CLionProjects/Nibbles/src/Engine.cpp" "C:/Users/bianc/CLionProjects/Nibbles/cmake-build-debug/CMakeFiles/nibbles.dir/src/Engine.cpp.obj"
   "C:/Users/bianc/CLionProjects/Nibbles/src/SnakeSection.cpp" "C:/Users/bianc/CLionProjects/Nibbles/cmake-build-debug/CMakeFiles/nibbles.dir/src/SnakeSection.cpp.obj"
-  "C:/Users/bianc/CLionProjects/Nibbles/src/Apple.cpp" "C:/Users/bianc/CLionProjects/Nibbles/cmake-build-debug/CMakeFiles/nibbles.dir/src/apple.cpp.obj"
   "C:/Users/bianc/CLionProjects/Nibbles/src/draw.cpp" "C:/Users/bianc/CLionProjects/Nibbles/cmake-build-debug/CMakeFiles/nibbles.dir/src/draw.cpp.obj"
   "C:/Users/bianc/CLionProjects/Nibbles/src/input.cpp" "C:/Users/bianc/CLionProjects/Nibbles/cmake-build-debug/CMakeFiles/nibbles.dir/src/input.cpp.obj"
   "C:/Users/bianc/CLionProjects/Nibbles/src/main.cpp" "C:/Users/bianc/CLionProjects/Nibbles/cmake-build-debug/CMakeFiles/nibbles.dir/src/main.cpp.obj"

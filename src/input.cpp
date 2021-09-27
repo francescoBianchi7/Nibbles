@@ -15,6 +15,12 @@ void Engine::input() {
             if (Keyboard::isKeyPressed(Keyboard::Escape)) {
                 window.close();
             }
+
+              //pause
+            if(Keyboard::isKeyPressed(Keyboard::P)){
+                togglePause();
+            }
+
         }
     } // END while pollEvent
     // Directions
