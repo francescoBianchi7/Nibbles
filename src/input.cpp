@@ -15,6 +15,18 @@ void Engine::input() {
             if (Keyboard::isKeyPressed(Keyboard::Escape)) {
                 window.close();
             }
+
+            // Pause
+            if (Keyboard::isKeyPressed(Keyboard::Pause)) {
+                togglePause();
+            }
+
+            // New Game
+            if (currentGameState == GameState::GAMEOVER) {
+                if (Keyboard::isKeyPressed(Keyboard::Enter)) {
+                    startTheGame();
+                }
+            }
         }
     } // END while pollEvent
     // Directions

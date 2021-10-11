@@ -128,6 +128,30 @@ nibbles/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/build
 .PHONY : nibbles/fast
 
+src/Apple.obj: src/Apple.cpp.obj
+.PHONY : src/Apple.obj
+
+# target to build an object file
+src/Apple.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/Apple.cpp.obj
+.PHONY : src/Apple.cpp.obj
+
+src/Apple.i: src/Apple.cpp.i
+.PHONY : src/Apple.i
+
+# target to preprocess a source file
+src/Apple.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/Apple.cpp.i
+.PHONY : src/Apple.cpp.i
+
+src/Apple.s: src/Apple.cpp.s
+.PHONY : src/Apple.s
+
+# target to generate assembly for a file
+src/Apple.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/Apple.cpp.s
+.PHONY : src/Apple.cpp.s
+
 src/Engine.obj: src/Engine.cpp.obj
 .PHONY : src/Engine.obj
 
@@ -175,6 +199,30 @@ src/SnakeSection.s: src/SnakeSection.cpp.s
 src/SnakeSection.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/SnakeSection.cpp.s
 .PHONY : src/SnakeSection.cpp.s
+
+src/Wall.obj: src/Wall.cpp.obj
+.PHONY : src/Wall.obj
+
+# target to build an object file
+src/Wall.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/Wall.cpp.obj
+.PHONY : src/Wall.cpp.obj
+
+src/Wall.i: src/Wall.cpp.i
+.PHONY : src/Wall.i
+
+# target to preprocess a source file
+src/Wall.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/Wall.cpp.i
+.PHONY : src/Wall.cpp.i
+
+src/Wall.s: src/Wall.cpp.s
+.PHONY : src/Wall.s
+
+# target to generate assembly for a file
+src/Wall.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/Wall.cpp.s
+.PHONY : src/Wall.cpp.s
 
 src/draw.obj: src/draw.cpp.obj
 .PHONY : src/draw.obj
@@ -281,12 +329,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... nibbles
+	@echo ... src/Apple.obj
+	@echo ... src/Apple.i
+	@echo ... src/Apple.s
 	@echo ... src/Engine.obj
 	@echo ... src/Engine.i
 	@echo ... src/Engine.s
 	@echo ... src/SnakeSection.obj
 	@echo ... src/SnakeSection.i
 	@echo ... src/SnakeSection.s
+	@echo ... src/Wall.obj
+	@echo ... src/Wall.i
+	@echo ... src/Wall.s
 	@echo ... src/draw.obj
 	@echo ... src/draw.i
 	@echo ... src/draw.s

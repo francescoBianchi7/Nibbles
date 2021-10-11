@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/nibbles.dir/src/Apple.cpp.obj"
   "CMakeFiles/nibbles.dir/src/Engine.cpp.obj"
   "CMakeFiles/nibbles.dir/src/SnakeSection.cpp.obj"
+  "CMakeFiles/nibbles.dir/src/Wall.cpp.obj"
   "CMakeFiles/nibbles.dir/src/draw.cpp.obj"
   "CMakeFiles/nibbles.dir/src/input.cpp.obj"
   "CMakeFiles/nibbles.dir/src/main.cpp.obj"

@@ -6,9 +6,17 @@
 
 #IncludeRegexTransform: 
 
+../headers/Apple.h
+SFML/Graphics.hpp
+-
+
 ../headers/Engine.h
 SnakeSection.h
 ../headers/SnakeSection.h
+Apple.h
+../headers/Apple.h
+Wall.h
+../headers/Wall.h
 SFML/Graphics.hpp
 -
 SFML/Graphics/RectangleShape.hpp
@@ -17,8 +25,14 @@ vector
 -
 deque
 -
+fstream
+-
 
 ../headers/SnakeSection.h
+SFML/Graphics.hpp
+-
+
+../headers/Wall.h
 SFML/Graphics.hpp
 -
 
@@ -692,7 +706,11 @@ SFML/Config.hpp
 
 C:/SFML/include/SFML/Window/WindowStyle.hpp
 
-C:/Users/bianc/CLionProjects/Nibbles/src/update.cpp
+C:/Users/bianc/CLionProjects/Nibbles/src/Engine.cpp
+Engine.h
+C:/Users/bianc/CLionProjects/Nibbles/src/Engine.h
+
+C:/Users/bianc/CLionProjects/Nibbles/src/draw.cpp
 Engine.h
 C:/Users/bianc/CLionProjects/Nibbles/src/Engine.h
 
