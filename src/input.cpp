@@ -1,4 +1,4 @@
-#include "Engine.hpp"
+#include "Engine.h"
 
 void Engine::input() {
     Event event{};
@@ -16,11 +16,17 @@ void Engine::input() {
                 window.close();
             }
 
-              //pause
-            if(Keyboard::isKeyPressed(Keyboard::P)){
+            // Pause
+            if (Keyboard::isKeyPressed(Keyboard::Pause)) {
                 togglePause();
             }
 
+            // New Game
+            if (currentGameState == GameState::GAMEOVER) {
+                if (Keyboard::isKeyPressed(Keyboard::Enter)) {
+                    startTheGame();
+                }
+            }
         }
     } // END while pollEvent
     // Directions

@@ -200,6 +200,30 @@ src/SnakeSection.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/SnakeSection.cpp.s
 .PHONY : src/SnakeSection.cpp.s
 
+src/Wall.obj: src/Wall.cpp.obj
+.PHONY : src/Wall.obj
+
+# target to build an object file
+src/Wall.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/Wall.cpp.obj
+.PHONY : src/Wall.cpp.obj
+
+src/Wall.i: src/Wall.cpp.i
+.PHONY : src/Wall.i
+
+# target to preprocess a source file
+src/Wall.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/Wall.cpp.i
+.PHONY : src/Wall.cpp.i
+
+src/Wall.s: src/Wall.cpp.s
+.PHONY : src/Wall.s
+
+# target to generate assembly for a file
+src/Wall.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/Wall.cpp.s
+.PHONY : src/Wall.cpp.s
+
 src/draw.obj: src/draw.cpp.obj
 .PHONY : src/draw.obj
 
@@ -314,6 +338,9 @@ help:
 	@echo ... src/SnakeSection.obj
 	@echo ... src/SnakeSection.i
 	@echo ... src/SnakeSection.s
+	@echo ... src/Wall.obj
+	@echo ... src/Wall.i
+	@echo ... src/Wall.s
 	@echo ... src/draw.obj
 	@echo ... src/draw.i
 	@echo ... src/draw.s

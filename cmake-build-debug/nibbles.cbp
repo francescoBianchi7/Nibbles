@@ -89,10 +89,13 @@
 		<Unit filename="C:/Users/bianc/CLionProjects/Nibbles/headers/Apple.h">
 			<Option target="nibbles"/>
 		</Unit>
-		<Unit filename="C:/Users/bianc/CLionProjects/Nibbles/headers/Engine.hpp">
+		<Unit filename="C:/Users/bianc/CLionProjects/Nibbles/headers/Engine.h">
 			<Option target="nibbles"/>
 		</Unit>
-		<Unit filename="C:/Users/bianc/CLionProjects/Nibbles/headers/SnakeSection.hpp">
+		<Unit filename="C:/Users/bianc/CLionProjects/Nibbles/headers/SnakeSection.h">
+			<Option target="nibbles"/>
+		</Unit>
+		<Unit filename="C:/Users/bianc/CLionProjects/Nibbles/headers/Wall.h">
 			<Option target="nibbles"/>
 		</Unit>
 		<Unit filename="C:/Users/bianc/CLionProjects/Nibbles/src/Apple.cpp">
@@ -102,6 +105,9 @@
 			<Option target="nibbles"/>
 		</Unit>
 		<Unit filename="C:/Users/bianc/CLionProjects/Nibbles/src/SnakeSection.cpp">
+			<Option target="nibbles"/>
+		</Unit>
+		<Unit filename="C:/Users/bianc/CLionProjects/Nibbles/src/Wall.cpp">
 			<Option target="nibbles"/>
 		</Unit>
 		<Unit filename="C:/Users/bianc/CLionProjects/Nibbles/src/draw.cpp">

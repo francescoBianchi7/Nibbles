@@ -10,17 +10,14 @@
 using namespace sf;
 
 class Apple {
+private:
+    RectangleShape sprite;
 
+public:
+    Apple();
 
-    private:
-        RectangleShape sprite;
-
-    public:
-        Apple();
-
-        void setPosition(Vector2f newPosition);
-        RectangleShape getSprite();
-
+    void setPosition(Vector2f newPosition);
+    RectangleShape getSprite();
 };
 
 

@@ -1,6 +1,6 @@
 
-#ifndef NIBBLES_SNAKESECTION_HPP
-#define NIBBLES_SNAKESECTION_HPP
+#ifndef NIBBLES_SNAKESECTION_H
+#define NIBBLES_SNAKESECTION_H
 #include <SFML/Graphics.hpp>
 using namespace sf;
 
@@ -21,4 +21,4 @@ public:
 };
 
 
-#endif //NIBBLES_SNAKESECTION_HPP
+#endif //NIBBLES_SNAKESECTION_H

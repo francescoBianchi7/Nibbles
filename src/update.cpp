@@ -2,7 +2,7 @@
 // Created by bianc on 29/08/2021.
 //
 
-#include "Engine.hpp"
+#include "Engine.h"
 
 void Engine::update() {
     // Update snake positions
@@ -37,13 +37,17 @@ void Engine::update() {
             }
             directionQueue.pop_front();
         }
+        //Update Score
+        score+=snake.size()+(applesEatenTotal+1);
+        scoreText.setString(to_string(score));
+        FloatRect scoreTextBounds=scoreText.getLocalBounds();
+        scoreText.setPosition(Vector2f(resolution.x-scoreTextBounds.width-15,-9));
 
-        //Growing snake
-        if(sectionsToAdd){
+        // Do we need to grow the snake
+        if (sectionsToAdd) {
             addSnakeSection();
             sectionsToAdd--;
         }
-
 
         // Update the snake's head position
         switch (snakeDirection) {
@@ -67,28 +71,57 @@ void Engine::update() {
             snake[s].setPosition(lastSectionPosition);
             lastSectionPosition = thisSectionPosition;
         }
-        //update sections
+
+        // update snake sections
         for (auto & s : snake) {
             s.update();
         }
-        //collision with apple
-        if(snake[0].getShape().getGlobalBounds().intersects(apple.getSprite().getGlobalBounds())){
-            //we hit apple , increase sections,speed and move apple
-            //TODO implement score
-            sectionsToAdd+=4;
-            speed++;
-            moveApple();
 
+        // Collision detection - Apple
+        if (snake[0].getShape().getGlobalBounds().intersects(apple.getSprite().getGlobalBounds())) {
+            // We hit the apple, add more sections to the snake, increase speed and move the apple
+            applesEatenThisLevel += 1;
+            applesEatenTotal += 1;
+            applesEatenText.setString("apples " + to_string(applesEatenTotal));
+            FloatRect currentLevelTextBounds = currentLevelText.getGlobalBounds();
+            applesEatenText.setPosition(
+                    Vector2f(currentLevelTextBounds.left + currentLevelTextBounds.width + 20, -9));
+
+            bool beginningNewLevel = false;
+            if (applesEatenTotal >= 10) {
+                // Begin the next level if there are more,
+                // otherwise, just stay on the last level and keep getting harder until we die.
+                if (currentLevel < maxLevels) {
+                    beginningNewLevel = true;
+                    beginNextLevel();
+                }
+            }
+            if (!beginningNewLevel) {
+                sectionsToAdd += 4;
+                speed++;
+                moveApple();
+            }
         }
-        //cillision with snake body
-        for(int s=1;s<snake.size();s++)
-        {
-            if(snake[0].getShape().getGlobalBounds().intersects(snake[s].getShape().getGlobalBounds()))
-                // GameOVER
-                currentGameState=GameState::GAMEOVER;
+
+        // Collision detection - Snake Body
+        for (int s = 1; s < snake.size(); s++) {
+            if (snake[0].getShape().getGlobalBounds().intersects(snake[s].getShape().getGlobalBounds())) {
+                // Game Over
+                currentGameState = GameState::GAMEOVER;
+            }
         }
-        //reset timer
+
+        // Collision detection - Wall
+        for (auto & w : wallSections) {
+            if (snake[0].getShape().getGlobalBounds().intersects(w.getShape().getGlobalBounds())) {
+                // Game Over
+                currentGameState = GameState::GAMEOVER;
+            }
+        }
+
+        // Reset the last move timer.
         timeSinceLastMove = Time::Zero;
-    }//END update
+    } // END update snake positions
 }
+
 

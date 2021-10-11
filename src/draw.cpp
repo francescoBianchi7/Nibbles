@@ -1,14 +1,32 @@
-#include "Engine.hpp"
+#include "Engine.h"
 
 void Engine::draw() {
     window.clear(Color::Black);
 
-    //Draw apple
+    // Draw walls
+    for (auto & w : wallSections) {
+        window.draw(w.getShape());
+    }
+
+    // Draw Apple
     window.draw(apple.getSprite());
 
-    //Draw Snake Section
-    for(auto & s :snake ){
+    // Draw snake sections
+    for (auto & s : snake) {
         window.draw(s.getShape());
+    }
+
+    //Draw Text
+    window.draw(titleText);
+    window.draw(currentLevelText);
+    window.draw(applesEatenText);
+    window.draw(scoreText);
+
+    //DrawGAmeOver
+    if(currentGameState==GameState::GAMEOVER)
+    {
+        window.draw(gameOverText);
+        window.draw(pressEnterText);
     }
 
     window.display();

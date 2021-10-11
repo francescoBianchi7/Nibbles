@@ -10,11 +10,13 @@
 SFML/Graphics.hpp
 -
 
-../headers/Engine.hpp
-SnakeSection.hpp
-../headers/SnakeSection.hpp
+../headers/Engine.h
+SnakeSection.h
+../headers/SnakeSection.h
 Apple.h
 ../headers/Apple.h
+Wall.h
+../headers/Wall.h
 SFML/Graphics.hpp
 -
 SFML/Graphics/RectangleShape.hpp
@@ -23,8 +25,14 @@ vector
 -
 deque
 -
+fstream
+-
 
-../headers/SnakeSection.hpp
+../headers/SnakeSection.h
+SFML/Graphics.hpp
+-
+
+../headers/Wall.h
 SFML/Graphics.hpp
 -
 
@@ -699,22 +707,10 @@ SFML/Config.hpp
 C:/SFML/include/SFML/Window/WindowStyle.hpp
 
 C:/Users/bianc/CLionProjects/Nibbles/src/Engine.cpp
-Engine.hpp
-C:/Users/bianc/CLionProjects/Nibbles/src/Engine.hpp
+Engine.h
+C:/Users/bianc/CLionProjects/Nibbles/src/Engine.h
 
 C:/Users/bianc/CLionProjects/Nibbles/src/draw.cpp
-Engine.hpp
-C:/Users/bianc/CLionProjects/Nibbles/src/Engine.hpp
-
-C:/Users/bianc/CLionProjects/Nibbles/src/input.cpp
-Engine.hpp
-C:/Users/bianc/CLionProjects/Nibbles/src/Engine.hpp
-
-C:/Users/bianc/CLionProjects/Nibbles/src/main.cpp
-Engine.hpp
-C:/Users/bianc/CLionProjects/Nibbles/src/Engine.hpp
-
-C:/Users/bianc/CLionProjects/Nibbles/src/update.cpp
-Engine.hpp
-C:/Users/bianc/CLionProjects/Nibbles/src/Engine.hpp
+Engine.h
+C:/Users/bianc/CLionProjects/Nibbles/src/Engine.h
 
